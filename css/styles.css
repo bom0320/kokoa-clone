@@ -6,13 +6,20 @@ body {
     font-family: "Ponomar", system-ui;
 }
 
-
 .welcome-header {
-    margin-top: 145px;
+    margin-top: 90px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
 .welcome-header__title {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.welcome-header__text{
+    width: 50%;
+
 }
