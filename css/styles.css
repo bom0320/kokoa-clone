@@ -40,11 +40,13 @@ body {
     padding: 15px 0px;
     font-size: 16px;
     margin-bottom: 25px;
+
 }
 
 #login-form input:not([type="submit"]) {
     /* not : 이 것을 제외한 나머지를 적용하고 싶어요.*/
     border-bottom: 1px solid  rgba(0,0,0,0.2);
+    transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input::placeholder {
