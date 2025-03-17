@@ -25,7 +25,7 @@ body {
 
 .welcome-header__text{
     width: 60%;
-    opacity: 0.7;
+    opacity: 0.7; /*불투명도*/
 
 }
 
