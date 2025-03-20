@@ -4,15 +4,20 @@
 
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 
 /* Screens */
 @import "screens/login.css";
 
 body {
-    font-family: "Ponomar", system-ui;
+  font-family: "Ponomar", system-ui;
+  height: 1000vh;
 }
 
 
+/*여기서 파일 순서는 중요함!
+- 만약, variables.css 파일을 아래로 옮긴다면 variable을 사용할 수 없음
+*/
 /*styles.css 파일에는 font-family 와 같이 모든 스크린에 적용될 수 있는
   스타일을 써놓도록 하자
-*/ 
+*/
